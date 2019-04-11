@@ -1,0 +1,1 @@
+powershell -executionpolicy bypass -file ".\darkify-slack-script.ps1"
