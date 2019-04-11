@@ -13,6 +13,8 @@ Most likely PowerShell script execution is disabled on your system. Get around t
 cd c:\dir-where-script-is
 powershell -executionpolicy bypass -file ".\darkify-slack-script.ps1"
 ```
+The BAT file doesn't support using the parameters described below, but you could like... edit it and stuff.
+
 ## Script options
 There's a couple parameters you can pass to the script.
 
