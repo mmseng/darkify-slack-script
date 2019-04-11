@@ -1,5 +1,5 @@
 # darkify-slack-script
-A PowerShell script to do the heavy lifting of modifying Slack files to hack in a custom theme.
+A PowerShell script to do the heavy lifting of modifying Slack files to hack in a custom theme. Makes it much less tedious to darkify Slack on multiple machines, or to re-darkify Slack after Slack updates and reverts your customizations.
 Uses code from existing repo: https://github.com/Nockiro/slack-black-theme/
 
 ## Instructions:
@@ -43,6 +43,14 @@ Pass this switch parameter to see some debug output
 ```
 .\darkify-slack-script.ps1 -debug
 ```
+
+## Notes
+This script should work for new versions of Slack as it programmatically figures out where the current files to be modified are for the latest version. However if slack were to change the formatting of these files or otherwise break things that the original source repo relies on, this script will break too.
+
+I have no intention of monitoring or updating this repo, especially because Slack has officially committed to bringing an official dark mode to Slack soon (https://9to5mac.com/2019/03/11/slack-dark-mode-available-ios-android/). Feel free to fork and/or modify it yourself.
+
+## Disclaimer
+I take no responsibility if you hose your system using this code. Use at your own risk.
 
 ## Credits and sources
 The original Javascript and CSS code used to modify the Slack files was taken from https://github.com/Nockiro/slack-black-theme/, which appears to be a more updated fork of https://github.com/widget-/slack-black-theme/
