@@ -43,3 +43,8 @@ Pass this switch parameter to see some debug output
 ```
 .\darkify-slack-script.ps1 -debug
 ```
+
+## Credits and sources
+The original Javascript and CSS code used to modify the Slack files was taken from https://github.com/Nockiro/slack-black-theme/, which appears to be a more updated fork of https://github.com/widget-/slack-black-theme/
+
+The CSS code is still hosted on the Nockiro repo and is simply referenced in the JS code. The JS code and bits of CSS for customizing the theme were taken from the readme/instructions in that repo and rehosted here for use by the script, because they're not actually in hosted files on the source repo.
